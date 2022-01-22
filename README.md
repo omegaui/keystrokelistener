@@ -71,6 +71,8 @@ class TestWithTextArea {
 
 Running the above code will create a window containing text area
 
+> In the above example, the `e` in the lambda expressions is the object of `KeyEvent` class
+
 If you press
 
 - **Ctrl + SHIFT + S** you will see `You pressed CTRL+SHIFT+S` as output
