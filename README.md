@@ -4,9 +4,11 @@ An advanced KeyListener for Java Swing UI.
 
 In Swing, We don't have any default way of mapping a set of KeyStrokes to a specific task.
 
-Or I should say **We didn't had one earlier** but now, it is possible with `KeyStrokeListener`
+Or I should say **We didn't had one earlier** but now, it is possible with `KeyStrokeListener`.
 
-Either use the source code or download the tiny [precompiled-jar](https://raw.githubusercontent.com/omegaui/keystrokelistener/main/out/keystrokelistener.jar)
+**Mapping Set of KeyStrokes with a runnable is now possible without creating a custom implementation**.
+
+Either use the source code or download the tiny [precompiled-jar](https://raw.githubusercontent.com/omegaui/keystrokelistener/main/out/keystrokelistener.jar).
 
 # Required Java Version
 If you want to use this library through the **jar** then you need to have at least **17** as the compilation level.
