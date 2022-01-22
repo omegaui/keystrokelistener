@@ -53,7 +53,7 @@ class TestWithTextArea {
             System.out.println("You only pressed CTRL+S and not SHIFT key");
         }, VK_CONTROL, VK_S).setStopKeys(VK_SHIFT);
         listener.putKeyStroke((e)->{
-            //This block executes if CTRL, SHIFT & S Keys are pressed
+            //This block executes if CTRL, SHIFT & V Keys are pressed and uses autoReset()
             //Use the useAutoReset() method only if this block does something which
             //Makes the textArea component to lose focus
             //Like in case of showing a dialog
