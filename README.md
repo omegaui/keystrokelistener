@@ -8,6 +8,11 @@ Or I should say **We didn't had one earlier** but now, it is possible with `KeyS
 
 Either use the source code or download the tiny [precompiled-jar](https://raw.githubusercontent.com/omegaui/keystrokelistener/main/out/keystrokelistener.jar)
 
+# Required Java Version
+If you want to use this library through the **jar** then you need to have at least **17** as the compilation level.
+
+Simply, you need java 17 if you want to use this library through the **jar**.
+
 # Usage
 
 This API is **super simple** to understand.
