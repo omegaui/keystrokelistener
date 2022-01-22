@@ -14,7 +14,7 @@ This API is **super simple** to understand.
 
 - Just create a `KeyStrokeListener` object by passing the component object
 in the constructor
-- Use `putKeyStroke` method to map a task with a keystroke like below
+- Use `putKeyStroke` method to map a task with a keystroke
 - pass the `KeyStrokeListener`'s Object to `component.addKeyListener()` method
 
 Like below
