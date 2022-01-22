@@ -1,25 +1,5 @@
-# keystrokelistener
+package test.listener;
 
-An advanced KeyListener for Java Swing UI.
-
-In Swing, We don't have any default way of mapping a set of KeyStrokes to a specific task.
-
-Or I should say **We didn't had one earlier** but now, it is possible with `KeyStrokeListener`
-
-Either use the source code or download the tiny [precompiled-jar](https://raw.githubusercontent.com/omegaui/keystrokelistener/main/out/keystrokelistener.jar)
-
-# Usage
-
-This API is **super simple** to understand.
-
-- Just create a `KeyStrokeListener` object by passing the component object
-in the constructor
-- Use `putKeyStroke` method to map a task with a keystroke like below
-- pass the `KeyStrokeListener`'s Object to `component.addKeyListener()` method
-
-Like below
-
-```java
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
 
@@ -65,16 +45,3 @@ class TestWithTextArea {
         f.setVisible(true);
     }
 }
-```
-
-### Execution of above example
-
-Running the above code will create a window containing text area
-
-If you press
-
-- **Ctrl + SHIFT + S** you will see `You pressed CTRL+SHIFT+S` as output
-- **Ctrl + S** you will see `You only pressed CTRL+S and not SHIFT key` as output
-- **Ctrl + SHIFT + V** you will see `You only pressed CTRL+SHIFT+V and I cleared the specified key's cache` as output
-
-
