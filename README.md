@@ -6,6 +6,12 @@ In Swing, We don't have any default way of mapping a set of KeyStrokes to a spec
 
 Or I should say **We didn't had one earlier** but now, it is possible with `KeyStrokeListener`.
 
+This implementation is dynamic in nature, this means
+
+- The KeyStrokeListener only performs checks for the specified keys.
+- Thus, **it is faster than any other custom implementation of KeyListener**.
+
+
 **Mapping Set of KeyStrokes with a runnable is now possible without creating a custom implementation**.
 
 Either use the source code or download the tiny [precompiled-jar](https://raw.githubusercontent.com/omegaui/keystrokelistener/main/out/keystrokelistener.jar).
