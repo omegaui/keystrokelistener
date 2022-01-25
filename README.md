@@ -22,7 +22,6 @@ This API is **super simple** to understand.
 - Just create a `KeyStrokeListener` object by passing the component object
 in the constructor
 - Use `putKeyStroke` method to map a task with a keystroke
-- pass the `KeyStrokeListener`'s Object to `component.addKeyListener()` method
 
 Like below
 
@@ -66,8 +65,6 @@ class TestWithTextArea {
             //Like in case of showing a dialog
             System.out.println("You only pressed CTRL+SHIFT+V and I cleared the specified key's cache");
         }, VK_CONTROL, VK_SHIFT, VK_V).useAutoReset();
-
-        textArea.addKeyListener(listener);
 
         f.setVisible(true);
     }
